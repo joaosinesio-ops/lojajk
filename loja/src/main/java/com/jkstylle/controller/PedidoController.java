@@ -12,6 +12,8 @@ import java.util.List;
 @RequestMapping("/pedido")
 public class PedidoController {
 
+    System.out.println("Teste");
+
     @Autowired
     private PedidoRepository pedidoRepository;
 
